@@ -89,7 +89,7 @@ const AccountsContainer: React.FC<props> = ({ handleOpenEditContainer }) => {
                     style={{ fontWeight: "500" }}
                   >
                     ₹
-                    {item?.balance > 0
+                    {item?.balance
                       ? Number(item.balance)?.toLocaleString()
                       : 0 || 0}
                   </Typography>

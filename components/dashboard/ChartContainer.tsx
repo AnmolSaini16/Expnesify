@@ -74,7 +74,6 @@ const ChartContainer: React.FC<props> = ({ pieChart }) => {
   const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042"];
 
   const renderPieToopTip = (props: any) => {
-    console.log(props);
     if (props.active && props.payload && props.payload.length) {
       return (
         <Box
@@ -97,7 +96,6 @@ const ChartContainer: React.FC<props> = ({ pieChart }) => {
   };
 
   const renderAreaToopTip = (props: any) => {
-    console.log(props);
     if (props.active && props.payload && props.payload.length) {
       return (
         <Box
