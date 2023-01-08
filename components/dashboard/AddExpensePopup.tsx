@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import styles from "../../styles/popup.module.css";
 import { MdClose } from "react-icons/md";
 import { Grid, TextFieldProps, Theme } from "@mui/material";
-import { AddExpense } from "../../interfaces/AddEditDelete";
+import { AddExpense } from "../../interfaces";
 import { addDoc, collection, doc, updateDoc } from "firebase/firestore";
 import { db } from "../../firebaseConfig";
 import { useSession } from "next-auth/react";

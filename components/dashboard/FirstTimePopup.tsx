@@ -9,7 +9,7 @@ import {
 import React, { useEffect, useState } from "react";
 import styles from "../../styles/popup.module.css";
 import { StyledTextField } from "../utils/TextField";
-import { FirstTimePopup } from "../../interfaces/AddEditDelete";
+import { FirstTimePopup } from "../../interfaces";
 import { useSession } from "next-auth/react";
 import { addDoc, collection, doc, setDoc } from "firebase/firestore";
 import { db } from "../../firebaseConfig";

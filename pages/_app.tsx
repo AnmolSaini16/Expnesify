@@ -5,7 +5,7 @@ import { SessionProvider } from "next-auth/react";
 import { ToastProvider } from "react-toast-notifications";
 import { AccountsContext } from "../context/AccountContext";
 import { useState } from "react";
-import { AccountsData } from "../interfaces/AddEditDelete";
+import { AccountsData } from "../interfaces";
 import { DocumentData } from "firebase/firestore";
 
 export default function App({ Component, pageProps }: AppProps) {

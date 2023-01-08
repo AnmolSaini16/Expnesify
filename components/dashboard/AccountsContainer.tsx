@@ -7,7 +7,7 @@ import {
   AccountsContext,
 } from "../../context/AccountContext";
 import { db } from "../../firebaseConfig";
-import { AccountsData } from "../../interfaces/AddEditDelete";
+import { AccountsData } from "../../interfaces";
 import styles from "../../styles/accountContainer.module.css";
 import EditIcon from "@mui/icons-material/Edit";
 

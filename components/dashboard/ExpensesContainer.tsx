@@ -10,7 +10,7 @@ import {
 import { useSession } from "next-auth/react";
 import React, { useEffect, useState } from "react";
 import { db } from "../../firebaseConfig";
-import { Expenses } from "../../interfaces/AddEditDelete";
+import { Expenses } from "../../interfaces";
 import styles from "../../styles/latestExpense.module.css";
 import Loader from "../common/Loader";
 

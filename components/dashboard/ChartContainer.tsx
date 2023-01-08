@@ -19,7 +19,7 @@ import {
   YAxis,
 } from "recharts";
 import { db } from "../../firebaseConfig";
-import { Expenses } from "../../interfaces/AddEditDelete";
+import { Expenses } from "../../interfaces";
 import styles from "../../styles/charts.module.css";
 
 interface props {
