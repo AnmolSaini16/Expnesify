@@ -1,0 +1,27 @@
+.layoutContainer {
+    position: relative;
+   
+}
+.sidebar {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+
+.navToggle {
+    position: absolute;
+    top: 25px;
+    left: 10px;
+    z-index: 999;
+    cursor: pointer;
+    border: none;
+    background-color: #2E3136;
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    transition: all 0.2s;
+}

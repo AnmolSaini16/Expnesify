@@ -1,0 +1,53 @@
+.sidebar {
+    height: 96%;
+    width: 250px;
+    margin: 0 20px;
+    background-color: #151515;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: fixed;
+}
+
+
+.userIMG {
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.logoutBTN {
+    border: none;
+    color: whitesmoke;
+    font-size: 16px;
+    padding: 8px 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    border: 1px solid #FD5E74; 
+    background-color: transparent;
+    color: #FD5E74;
+    transition: all 0.2s;
+}
+
+.logoutBTN:hover {
+    background-color: #FD5E74;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.sidebarLinks {
+    font-weight: bold;
+    transition: all 0.2s;
+    font-size: 18px;
+    color: #717171;
+}
+
+.sidebarLinks:hover {
+    color: #FD5E74;
+}
+.activesidebarLink {
+    color: #FD5E74;
+}

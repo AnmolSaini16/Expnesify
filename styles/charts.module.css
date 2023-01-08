@@ -1,0 +1,19 @@
+.chartContainer {
+    width: 98%;
+    height: 100%;
+    background-color: #151515;
+    min-height: 400px;
+}
+
+.chartContainer > h3 {
+    margin: 10px 0;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 564px) {
+    .chartContainer {
+        max-width: 94%;
+        margin-left: 12px;
+    }
+}

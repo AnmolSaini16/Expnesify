@@ -1,0 +1,30 @@
+.accountContainer {
+    background-color: #151515;
+    min-width: 210px;
+    max-width: 220px;
+}
+
+.editIcon {
+    color: #717171;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+.editIcon:hover {
+    cursor: pointer;
+    background-color: #717171;
+    color: whitesmoke;
+}
+
+
+@media only screen and (max-width: 564px) {
+    .accountContainer {
+        max-width: 160px;
+        min-width: 160px;
+    }
+}

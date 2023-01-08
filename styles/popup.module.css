@@ -1,0 +1,70 @@
+.popupContainerBG {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.popUp {
+    background-color: #0F0F0F;
+    padding: 40px;
+    display: flex;
+    border-radius: 10px;
+    max-width: 800px;
+    min-width: 450px;
+}
+
+.popupClose {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+    font-size: 1.5rem;
+    transition: all 0.2s;
+}
+
+.popupClose:hover {
+    background-color: #717171;
+}
+
+.addExpenseButton {
+    background-color: #FD5E74;
+    color: whitesmoke;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 16px;
+    font-size: 16px;
+    transition: all 0.2s;
+}
+.addExpenseButton:hover {
+    background-color: #ee7181;
+    cursor: pointer;
+}
+.addExpenseButton:disabled,
+.addExpenseButton[disabled]{
+  cursor: default;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+
+@media only screen and (max-width: 564px) {
+    .popUp {
+      min-width: 360px;
+      padding: 20px;
+    }
+}
